@@ -22,7 +22,7 @@ glimpse(boston)
 plot(boston)
 summary(boston)
 
-# 큰 자료 읽어 들이기
+# 큰 자료 읽어 들이기.
 library(data.table)
 DT <- fread("very_big.csv")
 DT <- fread("very_big.csv", data.table=FALSE)
